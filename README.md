@@ -24,7 +24,7 @@ Site institucional responsivo desenvolvido para a **Associação de Capoeira Din
 
 ## 🌐 Acesse o Projeto
 
-> 👉 **[https://victorrhugo7.github.io/DindonBahia/](#)** 
+> 👉 **[Acesse o Site Aqui](https://victorrhugo7.github.io/DindonBahia/)** 
 
 ---
 
