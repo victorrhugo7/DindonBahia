@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dindon Bahia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <h1 class="logo">DINDON</h1>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">☰</label>
+
+      <ul class="menu">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-content">
+    <h2>Arte. Cultura. Movimento.</h2>
+    <p>Viva a energia da capoeira.</p>
+  </div>
+</section>
+
+<!-- SOBRE -->
+<section id="sobre" class="section">
+  <div class="container">
+    <h2>Sobre</h2>
+    <p>
+      O grupo de capoeira Dindon Bahia é um projeto voltado para a prática e valorização da capoeira,
+      reunindo pessoas de diferentes idades com o objetivo de aprender, treinar e manter viva essa cultura.
+      Mais do que um esporte, a capoeira é trabalhada como uma forma de disciplina, respeito e integração entre os participantes.
+    </p>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section id="galeria" class="section dark">
+  <div class="container">
+    <h2>Galeria</h2>
+    <div class="gallery">
+      <img src="imagens_capoeira/img1.jpg"alt="Treino de Capoeira">
+      <img src="imagens_capoeira/img2.jpg" alt="Treino de Capoeira 2">
+      <img src="imagens_capoeira/img3.jpeg" alt="Capoeira 3">
+      <img src="imagens_capoeira/imgexp2.jpeg" alt="Capoeira 4">
+    </div>
+  </div>
+</section>
+
+<!-- LOCALIZAÇÃO -->
+<section id="localizacao" class="section">
+  <div class="container">
+    <h2>Localização</h2>
+    <p>Chega mais pra treinar com a gente!</p>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7856.375549353699!2d-41.47626310492!3d-11.30651998627896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x76eb1f4361cb7bd%3A0x9b138714fd6a3f31!2sSoares%2C%20Am%C3%A9rica%20Dourada%20-%20BA%2C%2044910-000!5e1!3m2!1spt-BR!2sbr!4v1777601996876!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- CONTATO -->
+<section id="contato" class="section dark">
+  <div class="container">
+    <h2>Contato</h2>
+
+    <div class="contato-box">
+      <!-- LINK DO INSTAGRAM -->
+      <p>📱 Instagram:</p>
+      <a href="https://www.instagram.com/dindonbahia_capoeira/" target="_blank" rel="noopener noreferrer">@dindonbahia_capoeira</a>
+
+      <!-- LINK DO WHATSAPP -->
+      <p>💬 WhatsApp:</p>
+      <!-- Substitua os números abaixo pelo seu (Código do país + DDD + Número) -->
+      <!-- Exemplo: 55 (Brasil) + 71 (Salvador) + 999999999 -->
+      <a href="https://wa.me/5574999250606" target="_blank" rel="noopener noreferrer">Falar com Mestre</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Raiz Capoeira  - Soares/BA</p>
+</footer>
+
+  <script>
+    const menuLinks = document.querySelectorAll('.menu a');
+    const menuToggle = document.getElementById('menu-toggle');
+
+    menuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        menuToggle.checked = false;
+      });
+    });
+  </script>
+</body>
+</html>
+</body>
+</html>
